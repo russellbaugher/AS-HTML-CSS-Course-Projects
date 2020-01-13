@@ -1,0 +1,29 @@
+table {
+	background-color:#ffffe6;
+	border:2px solid #006600;
+	border-collapse:collapse;
+	box-shadow: 1px 1px 6px 3px darkslategray;
+	float:left;
+	font-size:20px;
+	font-family:arial;
+	margin-top:40px;
+	margin-left:20px;
+	margin-bottom:50px;
+	
+	width:60%;
+}
+table td {
+	border:1px solid #006600;
+	padding:10px;
+	padding-left:10px;
+}
+table th {
+	background-color:#d9f2d9;
+}
+table thead {
+	border:2px solid #006600;
+	color:black;
+	background-color:;
+	text-align:left;
+}
+
