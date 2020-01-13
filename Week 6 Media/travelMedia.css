@@ -1,0 +1,161 @@
+* {
+   display: block;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   box-sizing: border-box; /*padding/border part of width*/
+}
+html {
+  height: 100%;
+  background: linen;
+}
+
+h1, h2, h3 {
+  margin: 10px;
+  text-align: center;
+  text-shadow:3px 3px 5px #ffffe6;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: left;
+}
+.headerContainer {}
+
+.logo {
+  float: left;
+  padding: 15px;
+  width: 35%;
+  height: auto;
+}
+
+nav.horizontal {
+  border:;
+  display:block;
+  float: right;
+  margin: auto 0;
+  position:;
+  text-align:;
+  width:65%;
+}
+nav.horizontal ul li a {
+  border:;
+  color:;
+  padding-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+nav a:visited {
+  color: black;
+}
+nav.horizontal a:hover {
+  color: darkblue;
+  font-weight: 600;
+}
+nav.horizontal ul {
+  border:;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav.horizontal ul li {
+  display: inline-block;
+  margin-left: 4px; /*space between logo & each li*/
+  padding: 24px;
+}
+
+body {
+  font-family:arial,helvetica,sans-serif;
+  font-weight: 300;
+  height:100%;
+  margin:0px;
+}
+
+.contentcontainer {
+  display:flex;
+	justify-content: space-between;
+  margin: 150px 0px 200px 40px;
+  overflow: auto;
+  padding: 20px 20px 20px 20px;
+  position:;  top:;  left:;
+  text-align: center;
+  width:90%;
+}
+
+article {
+  background: #d9f2d9;
+  box-shadow: 2px 2px 7px 4px darkslategray;
+  margin: 20px;
+  padding: 10px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+}
+  article p {
+    padding:10px;
+  }
+
+.nongprueCulture {
+  border:;
+  margin: ;
+  width:90%;
+  float: none;
+  overflow: auto; /* keep img inside container when min window */
+  position:;
+  text-align: center;
+  }
+  .nongprueCulture img {
+    box-shadow: 2px 2px 7px 2px darkslategray;
+    float:none;
+    margin-top: 0;
+    margin:20px 0px 20px 41px;
+    width:90%;
+    height:;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+  }
+
+.morlum {
+  border:;
+  margin-right: 20px;
+  width: 44%;
+  float:right;
+}
+.streetFood {
+  border:;
+  margin:;
+  width: 44%;
+  float right;
+}
+
+.bodyContainer {}
+
+audio, video {
+   background-color: black;
+   box-shadow: 2px 2px 7px 2px darkslategray;
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   display: block;
+   margin: 5px auto;
+   text-align: center;
+   width: 80%;
+}
+
+.footer {
+  background: lightskyblue;
+  background: linear-gradient(linen,lightskyblue);
+  background: -moz-linear-gradient(linen,lightskyblue);
+  background: -webkit-linear-gradient(linen,lightskyblue);
+  position: relative;
+  height: 120px;
+  margin-top: 0px;
+  clear:both;
+
+}
+.footer p {
+  color:darkblue;
+  font-weight:500;
+  font-size: 16px;
+  padding:50px;
+  text-align: center;

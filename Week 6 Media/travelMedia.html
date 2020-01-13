@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="travelMedia.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="bodyContainer">
+
+    <header>
+      <div class="headerContainer">
+        <img src="assets/rbaugherlogo.jpg" class="logo" alt="rbaugher.com" />
+        <nav class="horizontal">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Thailand</a></li>
+            <li><a href="#">Vietnam</a></li>
+            <li><a href="#">Dining</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- "headerContainer" -->
+    </header>
+  
+    <div class="contentContainer">
+
+      <article class="nongprueCulture">
+        <h2>Nongprue Culture</h2>
+        <img src="assets/pattayasunset.jpg" alt="Nongprue" width="300px">
+        <p>Although primarily known as an international tourist destination, with its local population catering to tourism in it's city center, Nongprue retains some key Thai cultural aspects throughout. Inside the tourism zone, traditional street foods are available for locals and foreigners alike. In the center of the city, various renditions of popular songs of the West can be heard as well as pop Thai music. Outside of the center of town, life begins to normalize with traditional foods and music. </p>
+      </article>
+      <!-- "nongprueCulture" -->
+
+      <article class="morlum">
+        <h2>Traditional Sounds</h2> <h3>Thai Morlum</h3>
+        <audio controls="controls">
+            <source src="assets/morlum.mp3" />
+            <source src="assets/morlum.ogg" />
+
+            <embed src="assets/morlum.mp3" type="audio/mpeg"
+              height="20" width="250"
+              autoplay="no" controller="yes" />
+           </audio>
+        <p>Thai Morlum is a traditional form of music common in Laos and the Northeastern region of Thailand. Many people come to work in Nongprue and make the areas not bustling with tourists feel more like home.</p>
+      </article>
+      <!-- "article.morlum" -->
+
+      <article class="streetFood">
+        <h2>Street food</h2>
+        <h3>Banana Pancakes</h3>
+        <video controls="controls">
+          <source src="assets/bananaPancake.mp4" />
+          <source src="bananaPancake.webm" />
+            <object data="bananaPancake.swf"
+            type="application/x-shockwave-flash" width="100" height="50">
+            <param name="movie" value="bananaPancake.swf" />
+            <param name="quality" value="high" />
+            <param name="menu" value="false" />
+            You must have the<a href="http://www.adobe.com/products/shockwaveplayer/"> Shockwave Player </a> to play the video clip.
+            </object>
+        </video>
+        <p>Street foods are very popular and for good reason. They are drastically less expensive than restaurant foods and quite tasty and of fresh quality with a regular flow of customers.</p>
+      </article>
+      <!-- "streetFood" -->
+
+    </div>
+    <!-- "contentContainer" -->
+
+<footer class="footer">
+  <p>Copywrite 2018</p>
+</footer>
+  </div>
+  <!-- "bodyContainer" -->
+</body>
+
+</html>
