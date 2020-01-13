@@ -1,0 +1,52 @@
+p{
+	font:20px Tahoma;
+	padding:30px;
+	text-align:left;
+	text-indent:60px;
+	margin-left:150px;
+	margin-right:150px;
+}
+a{
+	color:blue;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	color:yellow;
+}
+h1{
+	font:bold 30px Tahoma;
+	text-align:center;
+	color:#171711;
+} 
+h2{
+	font:bold 25px Tahoma;
+	text-align:center;
+	color:#171711;
+} 
+nav{
+	margin-bottom: 15px;
+	background:#F2F2E7;
+	font-size:20px;
+}
+body{
+	text-align:center;
+	background-image: url("imageschangrai/field.jpg");
+	background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+</style>
+}
+article{
+	background:#C7EEC7;
+	border:1px solid brown;
+	padding:20px;
+	margin-bottom:15px;
+}	
+footer{
+	font:20px Tahoma;
+	border-bottom:1px solid green; 
+}
