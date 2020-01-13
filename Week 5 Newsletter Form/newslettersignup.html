@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang-"en">
+
+	<head>
+		<meta charset-"utf-8"/>
+		<title>Newsletter Signup</title>
+		<link href="newslettersignup.css" rel="stylesheet"  type="text/css"/>
+	</head>
+
+<body>
+	<div class="bodycontainer">
+		<header>
+			<div class="headercontainer">
+				<img src="formimages/rbaugherlogo.jpg" alt="rbaugher.com" class="logo" />
+
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>  
+						<li><a href="#">Travel</a></li>
+						<li><a href="#">Dining</a></li>
+						<li><a href="#">Events</a></li>
+					</ul>
+				</nav>
+			</div> <!--headercontainer-->
+		</header>
+
+
+		<div class="contentcontainer">
+
+			<form id="nlsignup" name="nlsignup"
+						action="http://www.rbaugher.com/newsletter-signup"
+						method="post">
+
+				<h1>Signup for our newsletter to keep up to date on travel, dining deals, and experiences!</h1>
+					<br>
+				<p>* - required information</p>
+
+					<fieldset id="contactInfo">
+						<legend>Contact Information</legend>
+							<label>   <!--what is significance of 'blocklab'-->
+								First Name *
+								<input type="text" id="fname" name="fname" placeholder="First Name" size="20"
+								 required="required" />
+							</label>
+							<label>   <!--not required-->
+								Middle Initial
+								<input type="text" id="mInit" name="mInit" id="mInit" size="1"/>
+							</label>
+							<label>
+								Last Name *
+								<input type="text" id="lname" name="lname" placeholder="Last Name" size="20" required="required" />
+							</label>
+							<label>
+								Street Address *
+								<input type="text" id="street" name="street" placeholder="Street Address" size="20"
+								 required="required" />
+							</label>
+							<label>
+								City *
+								<input type="text" id="city" name="city" placeholder="City"  size="20"
+								 required="required" />
+							</label>
+							<label>   <!--need drop down-->
+								State *
+								 	<select id="State" name="State" required="required" size="1">
+									 	<option></option>
+										<option>AL</option>
+										<option>FL</option>
+										<option>GA</option>
+										<option>LA</option>
+										<option>MI</option>
+									  <option>SC</option>
+										required="required"
+									</select>
+							</label>
+							<label>
+								ZIP *
+								<input type="text" name="zip" id="zip" size="5"
+								required="required" title="please enter a 5-digit zipcode"
+								pattern="^\d{5}(\-\d{4})?$" />
+							</label>
+							<label>
+								Country *
+									<select id="State" name="State" required="required" size="1">
+									  <option></option>
+									  <option>Canada</option>
+									  <option>Mexico</option>
+									  <option selected>United States</option>
+										required="required"
+									</select>
+							</label>
+							<label>
+								Phone *
+								<input type="tel" id="lname" name="lname" placeholder="1234567890" size="10" required="required" pattern="\d{10}" />
+							</label>
+							<label>
+								Email Address *
+								<input type="email" id="email" name="email"  placeholder="example@example.com" size="30" required="required" title="Please enter a valid email address" />
+							</label>
+					</fieldset>
+
+
+	<fieldset id="aboutme">
+		<legend>About Me</legend>
+			<label>Gender</label>
+				<input id="male" name="radio" type="radio" required />Male
+				<input id="female" name="radio" type="radio" required />Female
+			<label>Race</label>
+				<input id="raceaa" name="radio" type="radio" />African American
+				<input id="raceas" name="radio" type="radio" />Asian
+				<input id="raceca" name="radio" type="radio" />Caucasian
+				<input id="racena" name="radio" type="radio" />Native American
+				<input id="raceo" name="radio" type="radio" />Other
+			<label>Age</label>
+				<input id="20" name="radio" type="radio" />18-29
+				<input id="30" name="radio" type="radio" />30-39
+				<input id="40" name="radio" type="radio" />40-49
+				<input id="50" name="radio" type="radio" />50-59
+				<input id="60" name="radio" type="radio" />60-69
+				<input id="70" name="radio" type="radio" />70-79
+				<input id="80" name="radio" type="radio" />80-89
+	</fieldset>
+
+
+	<fieldset id="myInterests">
+		<legend>My Travel Interests</legend>
+			<label>Transportation Preference
+				<select id="transportation" name="transportation">
+					 <option></option>
+					 <option>airplane</option>
+					 <option>train</option>
+					 <option>bus</option>
+					 <option>van</option>
+					 <option>cruise ship</option>
+					 <option>ferry</option>
+				 </select>
+			</label>
+			<label>Accommodation Preference
+				<select id="accommodation" name="accommodation">
+ 					 <option></option>
+					 <option>bed and breakfast</option>
+					 <option>hotel</option>
+					 <option>volunteer farmer</option>
+				 </select>
+			</label>
+		</fieldset>
+
+
+		<fieldset id="diningInterests">
+			<legend>My Dining Interests</legend>
+
+				<label>
+					Spicy Food
+					<span>
+						<input type="radio" name="spicy" id="spicyyes" />
+							<label for="spicyyes">Yes</label>
+						<input type="radio" name="spicy" id="spicyno" />
+							<label for="spicyno">No</label>
+							<input id="radio" name="radio" type="radio" required />Male
+							<input id="radio" name="radio" type="radio" required />Female
+					</span>
+				</label>
+					<label class="blockLab">
+						Vegetarian
+					<span>
+						<input type="radio" name="vegetarian" id="vegetarianyes" />
+							<label for="vegetarianyes">Yes</label>
+						<input type="radio" name="vegetarian" id="vegetarianno" />
+							<label for="vegetarianno">No</label>
+					</span>
+				</label>
+				<label class="blockLab">
+					Seafood
+				<span>
+					<input type="radio" name="seafood" id="seafoodyes" />
+						<label for="seafoodyes">Yes</label>
+					<input type="radio" name="seafood" id="seafoodno" />
+						<label for="seafoodno">No</label>
+				</span>
+			</label>
+			<label class="blockLab">
+				Beef
+			<span>
+				<input type="radio" name="beef" id="beefyes" />
+					<label for="beefyes">Yes</label>
+				<input type="radio" name="beef" id="beefno" />
+					<label for="beefno">No</label>
+			</span>
+		</label>
+		<label class="blockLab">
+			Pork
+		<span>
+			<input type="radio" name="pork" id="porkyes" />
+				<label for="porkyes">Yes</label>
+			<input type="radio" name="pork" id="porkno" />
+				<label for="porkno">No</label>
+		</span>
+	</label>
+
+	<!--------------------------------------------------------------------------------------->
+
+
+
+						<label>
+							<br>Do you have any suggestions for us?</br>
+							<textarea id="suggestions name="suggestions" rows="8 cols="100"></textarea>
+						</label>
+
+						<div class="button">
+							<input type="submit" value=" sign up ">
+						</div> <!--buttondiv-->
+
+		</div> <!--contentcontainer-->
+	<footer class="footer">
+			<p>Copywrite 2018</p>
+	</footer>
+
+	</div> <!--bodycontainer-->
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+* {
+  margin:0;
+  padding: 0;
+}
+html {
+  height:100%;
+}
+body {
+  background: linen;
+  font-family:arial,helvetica,sans-serif;
+  font-weight: 300;
+  height:100%;
+  margin:0px;
+}
+.bodycontainer {
+  min-height: 100%;
+}
+.contentcontainer {
+  display: block;
+  margin: 100px;
+  overflow: auto;
+  padding-bottom: 100px; /*leave 100px for footer*//*maybe do same for header*/
+  position:;
+  top:;
+  left:;
+  width:90%;
+}
+
+
+.headercontainer {
+  width:;
+  margin: 0 auto;
+}
+header {
+  background: lightskyblue;
+  background: linear-gradient(lightskyblue,linen);
+  background: -moz-linear-gradient(lightskyblue,linen);
+  background: -webkit-linear-gradient(lightskyblue,linen);
+  border:;
+  display:block;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;   /*makes header return after logo.nav floats*/
+}
+.logo {
+  border:;
+  float: left;
+  padding: 10px;
+  width: 300px;
+  height:50px;
+}
+nav {
+  border:;
+  display:block;
+  float: right;
+  margin: auto 0;
+  position:;
+  text-align:;
+  width:;
+}
+nav ul li a {
+  border:;
+  color:;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+nav a:visited {
+  color: black;
+}
+nav a:hover {
+  color: darkblue;
+  font-weight: 600;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 35px; /*space between logo & each li*/
+  padding: 26px;
+}
+
+
+form {
+  border:;
+  margin-top: 60px;
+}
+fieldset {
+  margin:10px;
+  padding: 5px;
+  width: 500px;
+}
+legend {
+  font-weight: 600;
+}
+label {
+  display:block;
+  padding: 10px;
+  position:relative;
+}
+
+.radio {
+  display:inline-block;
+}
+.button {
+  padding:10px;
+}
+
+.footer {
+  background: lightskyblue;
+  background: linear-gradient(linen,lightskyblue);
+  background: -moz-linear-gradient(linen,lightskyblue);
+  background: -webkit-linear-gradient(linen,lightskyblue);
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear:both;
+
+}
+.footer p {
+  color:darkblue;
+  font-weight:500;
+  font-size: 16px;
+  padding:50px;
+  text-align: center;
+
+
+}
